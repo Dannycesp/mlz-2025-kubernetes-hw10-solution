@@ -1,0 +1,43 @@
+# Agent documentation and working files (not tracked)
+PROJECT_DOCS/
+brouillon/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+.env
+*.egg-info/
+dist/
+build/
+
+# uv
+.uv/
+uv.lock
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files
+*.bin
+*.pkl
+*.pickle
+data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
