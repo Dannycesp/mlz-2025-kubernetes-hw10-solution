@@ -53,7 +53,7 @@ You should see this:
 Here `<value>` is the probability of getting a subscription. You need to choose the right one.
 
 * 0.29
-* **0.49**
+* ✅ 0.49
 * 0.69
 * 0.89
 
@@ -98,7 +98,7 @@ What's the smallest deployable computing unit that we can create and manage
 in Kubernetes (`kind` in our case)?
 
 * Node
-* **Pod**
+* ✅ Pod
 * Deployment
 * Service
 
@@ -110,7 +110,7 @@ Now let's test if everything works. Use `kubectl` to get the list of running ser
 What's the `Type` of the service that is already running there?
 
 * NodePort
-* **ClusterIP**
+* ✅ ClusterIP
 * ExternalName
 * LoadBalancer
 
@@ -124,7 +124,7 @@ What's the command we need to run for that?
 
 * `kind create cluster`
 * `kind build node-image`
-* **`kind load docker-image`**
+* ✅ `kind load docker-image`
 * `kubectl apply`
 
 
@@ -268,7 +268,7 @@ What was the maximum amount of the replicas during this test?
 
 * 1
 * 2
-* **3**
+* ✅ 3
 * 4
 
 > Note: It may take a few minutes to stabilize the number of replicas. Since the amount of load is not controlled 
